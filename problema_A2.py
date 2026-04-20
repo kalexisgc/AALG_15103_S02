@@ -23,7 +23,11 @@ while True:
         personas.append(Persona(nombre, dni)) 
         print(" Creada") 
     elif op == "2": 
+<<<<<<< HEAD
         for i, p in enumerate(personas, 1)
+=======
+        for i, p in enumerate(personas, 1): 
+>>>>>>> 25a5b7175d3b62e2326c07e567e015842ef543fd
             print(f"{i}. {p}")
     elif op == "3": 
         dni = input("DNI a eliminar: ") 
